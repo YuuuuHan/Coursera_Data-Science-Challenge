@@ -17,4 +17,4 @@
 <img width="264" alt="截圖 2024-11-10 下午11 07 38" src="https://github.com/user-attachments/assets/63b7131d-87db-466e-bd63-9c0492fba437">
 
 ## Conclusion
-
+在本專案中，經過多種模型比較，選擇使用 **XGBoost** 進行客戶流失預測，因為它在準確性和計算效率上表現優異。XGBoost 有助於精確識別高風險流失客戶，支持企業提前採取保留措施。本專案成功建立了一個穩定的流失預測模型，為提升客戶忠誠度提供了有力支持，並**通過 Coursera 課程**。
