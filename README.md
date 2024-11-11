@@ -7,6 +7,10 @@
 2. 模型選擇與訓練：使用多種模型（如：Random Forest、XGBoost）進行模型訓練，再透過交叉驗證選擇性能最佳的模型。同時，使用網格搜索調整模型的超參數，以提高預測準確率。
 3. 特徵工程：透過分析不同變量對客戶流失的影響，選擇重要特徵來增強模型效果，並使用特徵縮放等技術來標準化特徵範圍。
 4. 模型評估：利用混淆矩陣、準確率、召回率和F1分數等指標評估模型的效果，並選擇表現最佳的模型用於預測任務。
-
-
+## Results
+**Random Forest**
+<img width="269" alt="截圖 2024-11-10 下午11 06 42" src="https://github.com/user-attachments/assets/48c5ae36-46f4-4c8d-af9a-5a533236f015">
+**XGBoost**
+<img width="264" alt="截圖 2024-11-10 下午11 07 38" src="https://github.com/user-attachments/assets/63b7131d-87db-466e-bd63-9c0492fba437">
+## Conclusion
 
