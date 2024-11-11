@@ -1,12 +1,12 @@
 # Coursera_Data-Science-Challenge
-本專案透過分析客戶行為數據，建立有效的客戶流失預測模型，幫助企業識別容易流失的客戶並策劃對應策略。
+This project establishes an effective customer churn prediction model by analyzing customer behavior data, helping businesses identify at-risk customers and develop corresponding retention strategies.
 ## Solution
-為了解決客戶流失問題，本專案使用**多種機器學習模型**來構建客戶流失預測系統，重點包括資料前處理、特徵工程和模型優化。首先，對資料進行清理並處理缺失值與類別變量。接著，基於不同特徵組合訓練多個機器學習模型，如 **Random Forest** 和 **XGBoost** 模型。最終選擇性能最佳的模型進行測試，以達到精確識別流失客戶的目標。透過此預測系統，企業能夠預測客戶流失的可能性，並針對高風險客戶提前採取行動，提高客戶的忠誠度和滿意度。
+To address the issue of customer churn, this project employs multiple machine learning models to build a customer churn prediction system, with a focus on **data preprocessing**, **feature engineering**, and **model optimization**. First, the data is cleaned and missing values and categorical variables are handled. Then, several machine learning models, including Random Forest and XGBoost, are trained based on different feature combinations. The best-performing model is ultimately selected for testing to accurately identify potential churn customers. Through this prediction system, businesses can assess the likelihood of customer churn and take proactive measures for high-risk customers, thereby improving customer loyalty and satisfaction."
 ## Method
-1. 資料前處理：將原始數據中的缺失值和異常值進行處理，並對類別變量進行編碼以便模型使用。同時進行數據標準化，以提升模型的穩定性。
-2. 模型選擇與訓練：使用多種模型（如：Random Forest、XGBoost）進行模型訓練，再透過交叉驗證選擇性能最佳的模型。同時，使用網格搜索調整模型的超參數，以提高預測準確率。
-3. 特徵工程：透過分析不同變量對客戶流失的影響，選擇重要特徵來增強模型效果，並使用特徵縮放等技術來標準化特徵範圍。
-4. 模型評估：利用混淆矩陣、準確率、召回率和F1分數等指標評估模型的效果，並選擇表現最佳的模型用於預測任務。
+1. **Data Preprocessing**: Handle missing values and outliers in the raw data, and encode categorical variables for model use. Data normalization is also performed to improve model stability.
+2. **Model Selection and Training**: Train multiple models (e.g., **Random Forest** and **XGBoost**), and use cross-validation to select the best-performing model. Additionally, apply grid search to tune model hyperparameters and enhance prediction accuracy.
+3. **Feature Engineering**: Analyze the impact of different variables on customer churn to select important features that strengthen model performance, and use feature scaling techniques to standardize feature ranges.
+4. **Model Evaluation**: Evaluate model performance using metrics such as the confusion matrix, accuracy, recall, and F1 score, and select the best-performing model for the prediction task.
 ## Results
 **Random Forest**
 
@@ -17,4 +17,4 @@
 <img width="264" alt="截圖 2024-11-10 下午11 07 38" src="https://github.com/user-attachments/assets/63b7131d-87db-466e-bd63-9c0492fba437">
 
 ## Conclusion
-在本專案中，經過多種模型比較，選擇使用 **XGBoost** 進行客戶流失預測，因為它在準確性和計算效率上表現優異。XGBoost 有助於精確識別高風險流失客戶，支持企業提前採取保留措施。本專案成功建立了一個穩定的流失預測模型，為提升客戶忠誠度提供了有力支持，並**通過 Coursera 課程**。
+In this project, after comparing multiple models,**XGBoost** was chosen for customer churn prediction due to its excellent accuracy and computational efficiency. XGBoost effectively identifies high-risk churn customers, enabling businesses to take proactive retention measures. This project successfully established a stable churn prediction model, providing strong support for improving customer loyalty, **through the Coursera course**.
